@@ -168,7 +168,7 @@ public class Player10 extends Player {
 					}
 				}
 			}
-			
+
 			// System.out.println(getWidth()+","+getHeight());
 			if (getCell(0, getHeight() - 1) == -1 && flag[0][getHeight() - 1] == false) {
 				open(0, getHeight() - 1);
@@ -329,7 +329,7 @@ public class Player10 extends Player {
 	}
 
 	//////////////////////////////////////////////////////////////////////////////////////////////
-	
+
 	protected int myGetCell(int x, int y) {// 壁を−２とする
 		if (x == -1 || y == -1) {
 			return -2;
@@ -359,7 +359,7 @@ public class Player10 extends Player {
 
 	//////////////////////////////////////////////////////////////////////////////////////////////////////
 //確定したところにflag立てつ or 開けるメソッド群
-	
+
 	public void playSafely(boolean[][] flag) {
 		while (true) {
 
